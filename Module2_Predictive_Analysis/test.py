@@ -1,7 +1,9 @@
+#import necessary libraries
 import streamlit as st
 from numpy import *
 
 def run(questionnaire):
+    
     # Convert the answers to integers
     q1 = ["Always", "Usually", "Sometimes", "Rarely", "Never"].index(questionnaire['Q1'])
     q2 = ["Always", "Usually", "Sometimes", "Rarely", "Never"].index(questionnaire['Q2'])
